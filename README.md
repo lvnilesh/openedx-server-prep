@@ -39,7 +39,9 @@ Now also supporting Backup and Restore playbooks. Note: For now this playbook on
 1. Clone 
 2. Add an IP address to the `hosts` file, underneath `[all]`
 3. Edit the file you want to use
+
   3.1 Edit `user: ubuntu` to match your user for SSH
+
   3.2 Define the hosts you want to have prepared (default: `all`)
 4. Edit `Playbook` and `System` Variables in the 1. playbook (`var: default`)
   - Use a local configuration folder (`local_conf: False`)
